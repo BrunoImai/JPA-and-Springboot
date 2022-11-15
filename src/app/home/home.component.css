@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body{
+    background-color: #003DDB;
+}
+
+.secundario{
+    display: flex;
+    flex-direction: column;
+}
+
+.secundarioSlogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secundarioSlogan p{
+    margin-top: 7rem;
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.secundarioSloganBotao{
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 15rem;
+    border-radius: 1rem;
+    background-color: white;
+    color: #003DDB;
+}
+
+.secundarioSloganBotao:hover{
+    background-color: #326cff;
+    color: white;
+}
+
+.secundarioDescricao{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    width: 100%;
+}
+
+.secundarioDescricaoImg{
+    width: 500px;
+    margin-left: 2rem;
+}
+
+.secundarioDescricao p {
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1.6rem;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin-right: 2rem;
+}

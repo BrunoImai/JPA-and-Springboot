@@ -1,0 +1,25 @@
+.principal{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.2rem;
+}
+
+.principalLogoLiber{
+    height: 4rem;
+    margin: 2rem;
+}
+
+.principalBotao{
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 1.1rem;
+    margin: 2rem;
+    width: 8rem;
+    border-radius: 1rem;
+    background-color: #ffb700;
+}
+
+.principalBotao:hover{
+    background-color: #002c9d;
+}

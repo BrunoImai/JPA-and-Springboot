@@ -1,0 +1,30 @@
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <div class="example-sidenav-div">
+    <img src="../../assets/logoCompletaBranca.png">
+    <div class="sidenav-opcoes">
+        <a>
+            <p>Início</p>
+        </a>
+        
+        <a>
+            <p>Perfil</p>
+        </a>
+        
+        <a>
+            <p>Gerenciar Livros</p>
+        </a>
+        
+    </div>
+    <button mat-button class="sidenav-opcoes-botao">Sair</button>
+    </div>
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+    <div class="sidenav-content-header">
+        <button type="button" mat-button (click)="drawer.toggle()">Menu</button>
+        <input type="text" placeholder="Buscar...">  
+    </div>
+  </div>
+
+</mat-drawer-container>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="principal">
+    <a href="/api/home"><img src="../../assets/logoCompletaAzul.png" class="principalLogoLiber"></a>
+      <form class="example-form">  
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Nome</mat-label>
+          <input matInput placeholder="Digite o nome" name="nome" id="nome" [(ngModel)]= "nome"/>
+        </mat-form-field>
+        
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Login</mat-label>
+          <input matInput placeholder="Digite o login" name="login" [(ngModel)]= "login"/>
+        </mat-form-field>
+      
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Senha</mat-label>
+          <input matInput placeholder="Digite a senha" name="senha" [(ngModel)] = "senha"/>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Confirmar senha</mat-label>
+          <input matInput placeholder="Confirme sua senha" name="Confirmasenha" [(ngModel)] = "confirmaSenha"/>
+        </mat-form-field>
+      </form>
+
+    <button mat-raised-button color="primary" class="principalBotao" (click)="salvar()">CADASTRAR</button>
+    <br>
+    <button mat-raised-button color="primary" class="principalBotao" (click)="listar()">LISTAR</button>
+  </div>
+
+  <div id="testando">
+
+  </div>
+  
+</body>
+</html>
+
